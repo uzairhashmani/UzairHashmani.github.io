@@ -1,5 +1,95 @@
-.HeaderH1 {
-background-color: aqua;
-font-family: sans-serif;
-font-weight: 100;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-color: #f3f3f4;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+}
+nav .brand {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.main-content {
+    display: flex;
+    margin: 20px;
+}
+.content {
+    flex: 3;
+    padding: 20px;
+}
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+.sidebar button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.sidebar button:hover {
+    background-color: #0056b3;
+}
+.project-row {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.project-row .left,
+.project-row .right {
+    padding: 10px;
+    flex: 1;
+}
+.project-row .left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.project-row .right h3 {
+    margin: 0 0 10px;
+}
+.project-row .right a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.project-row .right a:hover {
+    text-decoration: underline;
+}
+.design-heading {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
 }
