@@ -78,4 +78,5 @@ figure {
   padding: 9px 18px;
   cursor: pointer;
   transition: all .1s ease-in-out;
-  line-height: .95;}
+  line-height: .95;
+}
