@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Facebook NavBar</title>
+
+    <style>
+        * {
+
+            padding: 0;
+            margin: 0;
+            box-sizing: border;
+        }
+
+        body{
+            background-color: green;
+            color: black;
+        }
+
+       nav {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 3);
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+       }
+
+       .left {
+        display: flex;
+        align-items: center;
+justify-content: space-between;
+margin-left: 16px;
+       }
+
+       .left .logo {
+
+        width: 40px;
+        margin: 5px 8px;
+        cursor: pointer;
+       }
+
+
+       .left .searchbox {
+        width: 230px;
+        height: 40px;
+        background-color: #efefef;
+        margin-left: 4px;
+        padding: 0 8px;
+        position: relative;
+
+       }
+       
+        .right {
+display: flex;
+align-items: center;
+justify-content: center;
+        }
+       .right img {
+width: 40;
+height: 40px;
+object-fit: cover;
+object-position: center;
+line-height: 45px;
+margin-right: 16px;
+margin-left: 8px;
+border-radius: 50%;
+       }
+
+        {}
+    </style>
+<body>
+
+    <div class="container">
+
+        <nav>
+
+            <div class="left">  
+            <div class="logo">
+               
+                <img src="images/icons8-facebook.svg" alt="">
+                </div>
+              
+                <div class="searchbox">
+                    <img src="images/search.svg" alt="">
+<input type="text" placeholder="Search Facebook">
+                
+            </div>    
+            </div>
+            <div class="center">  
+                <a href=""><img src="images/home.svg" alt=""></a>
+                <a href=""><img src="images/watch.svg" alt=""></a>
+                <a href=""><img src="images/shop.svg" alt=""></a>
+                <a href=""><img src="images/groups.svg" alt=""></a>
+                <a href=""><img src="images/gaming.svg" alt=""></a>
+
+            </div>
+            <div class="right">    
+                
+                <img src="images/menu.svg" alt="">
+                <img src="images/sms.svg" alt="">
+                <img src="images/Profile.jpg" alt="">
+            
+            </div>
+        </nav>
+    </div>
+
+</body>
+</html>
